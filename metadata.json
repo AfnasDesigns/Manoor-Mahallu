@@ -1,0 +1,6 @@
+{
+  "name": "Manoor Mahall",
+  "description": "One Mahallu. One Digital System. Complete digital operating system connecting families, Madrasa, payments, community services, registrations, and administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1675 @@
+{
+  "users": [
+    {
+      "id": "USR-AFNAS",
+      "username": "afnas",
+      "fullName": "Afnas (Mahallu Super Admin)",
+      "phone": "+91 98470 12345",
+      "role": "SUPER ADMIN",
+      "createdAt": "2026-09-22T08:53:42.636Z",
+      "passwordHash": "3c25dfca1b1f41125dadad3918ed37e7fc9af4882bbdee2e1353b4ff8604fc1eebc56a999a8d9af8be99e150c50e96ae7baa6e295396b4d6c2a59aa5d9c623ac",
+      "salt": "manoor_secure_salt_9048"
+    },
+    {
+      "id": "USR-001",
+      "username": "admin",
+      "fullName": "Sayyid Ahmed Koya Thangal",
+      "phone": "+91 98470 12345",
+      "role": "SUPER ADMIN",
+      "createdAt": "2026-01-01T00:00:00Z",
+      "passwordHash": "b282badd90bd0b7100b82bf3c8aac0bcbfc9d83dc299424898ca94034248f623c3ab530d41f05f6e984cfa095ef2fc48edf5cbce6300e9f81ae8d38f2853a45b",
+      "salt": "manoor_secure_salt_9048"
+    },
+    {
+      "id": "USR-002",
+      "username": "secretary",
+      "fullName": "P.K. Abdul Majeed",
+      "phone": "+91 94471 23456",
+      "role": "SECRETARY",
+      "createdAt": "2026-01-02T00:00:00Z",
+      "passwordHash": "b282badd90bd0b7100b82bf3c8aac0bcbfc9d83dc299424898ca94034248f623c3ab530d41f05f6e984cfa095ef2fc48edf5cbce6300e9f81ae8d38f2853a45b",
+      "salt": "manoor_secure_salt_9048"
+    },
+    {
+      "id": "USR-003",
+      "username": "treasurer",
+      "fullName": "K. Mohammed Ashraf",
+      "phone": "+91 98462 34567",
+      "role": "TREASURER",
+      "createdAt": "2026-01-02T00:00:00Z",
+      "passwordHash": "b282badd90bd0b7100b82bf3c8aac0bcbfc9d83dc299424898ca94034248f623c3ab530d41f05f6e984cfa095ef2fc48edf5cbce6300e9f81ae8d38f2853a45b",
+      "salt": "manoor_secure_salt_9048"
+    },
+    {
+      "id": "USR-004",
+      "username": "usthad",
+      "fullName": "Usthad Zainul Abid Musliyar",
+      "phone": "+91 98473 45678",
+      "role": "MADRASA ADMIN",
+      "createdAt": "2026-01-03T00:00:00Z",
+      "passwordHash": "b282badd90bd0b7100b82bf3c8aac0bcbfc9d83dc299424898ca94034248f623c3ab530d41f05f6e984cfa095ef2fc48edf5cbce6300e9f81ae8d38f2853a45b",
+      "salt": "manoor_secure_salt_9048"
+    },
+    {
+      "id": "USR-005",
+      "username": "member",
+      "fullName": "Abdul Rahman K.",
+      "phone": "+91 94470 88990",
+      "role": "MEMBER",
+      "memberId": "MH-MEM-00101",
+      "familyId": "MH-FAM-001",
+      "createdAt": "2026-01-10T00:00:00Z",
+      "passwordHash": "b282badd90bd0b7100b82bf3c8aac0bcbfc9d83dc299424898ca94034248f623c3ab530d41f05f6e984cfa095ef2fc48edf5cbce6300e9f81ae8d38f2853a45b",
+      "salt": "manoor_secure_salt_9048"
+    },
+    {
+      "id": "USR-MUCFYKLH",
+      "username": "afnas387",
+      "fullName": "afnas",
+      "phone": "9048704634",
+      "role": "MEMBER",
+      "memberId": "MH-MEM-00105",
+      "familyId": "MH-FAM-005",
+      "createdAt": "2026-09-22T08:58:01.541Z",
+      "passwordHash": "b1653517024a8f51012aa7dfe0281f37a48e2d4f1ad846952c0cb3fbe28d926f0a0c10316264120f24f6d2cb462d775e4adc8ed996ffed87ccc9c3bd927766a2",
+      "salt": "a3edcf9627468a1e01e1429dd5ea2b37"
+    },
+    {
+      "id": "USR-MUCGEQJS",
+      "username": "afnas463",
+      "fullName": "afnas",
+      "phone": "9048704634",
+      "role": "MEMBER",
+      "memberId": "MH-MEM-00106",
+      "familyId": "MH-FAM-006",
+      "createdAt": "2026-09-22T09:10:35.752Z",
+      "passwordHash": "341b8c415e78c999c7ff50daa4c021c3a32d44255afec4ba16ce65dbfc06ec33cd4c946a031e374d63a2b15025098eb20481865d653c08a356a282bfdad4f1aa",
+      "salt": "5358f2cfed56eb9dce34d0ba019768b4"
+    },
+    {
+      "id": "USR-MUCGHRPG",
+      "username": "shahal",
+      "fullName": "shahal",
+      "phone": "9048704634",
+      "role": "MEMBER",
+      "memberId": "MH-MEM-00107",
+      "familyId": "MH-FAM-007",
+      "createdAt": "2026-09-22T09:12:57.220Z",
+      "passwordHash": "b914b1729fd616f2a009fa93e682cfaf9e9fe28e2c66d47ea5b6bfc436851651d25f5d10fd6d4dad575aa7699e0baf8c5e9519abb96528e4caa8e72902fde0b8",
+      "salt": "9da52905fe9af7857bbd75550ac9027c"
+    },
+    {
+      "id": "USR-MUCHAO1H",
+      "username": "habaj",
+      "fullName": "habaj",
+      "phone": "9048704634",
+      "role": "MEMBER",
+      "memberId": "MH-MEM-00108",
+      "familyId": "MH-FAM-009",
+      "createdAt": "2026-09-22T09:35:25.494Z",
+      "passwordHash": "cafe389e29d4b8b52640c87524fdf56de600c8c73e5beb9b40beb8f001fa4adc47e2f0f446c61b5ddf50214e32c9c488cbdd293910ee412b4bf5c26b6f77cfed",
+      "salt": "4d1144d6eaa273a7782cdceed04baeb2"
+    }
+  ],
+  "families": [
+    {
+      "id": "MH-FAM-001",
+      "houseName": "Kalluvila House",
+      "houseNumber": "14/232",
+      "ward": "Ward 4 - Juma Masjid Road",
+      "address": "Near Juma Masjid, Manoor, Malappuram, Kerala 676505",
+      "headName": "Abdul Rahman K.",
+      "phone": "+91 94470 88990",
+      "memberCount": 5,
+      "totalContribution": 42000,
+      "pendingBalance": 1200,
+      "lastPaymentDate": "2026-03-01",
+      "createdAt": "2025-01-01T10:00:00Z",
+      "timeline": [
+        {
+          "id": "TL-1790068942879",
+          "type": "MADRASA",
+          "title": "Madrasa Admission",
+          "description": "Ayesha Rida admitted to Class 1-A (Adm: MAD-2026-093)",
+          "date": "2026-09-22",
+          "actor": "Afnas (Mahallu Super Admin)"
+        },
+        {
+          "id": "TL-1",
+          "type": "PAYMENT",
+          "title": "Mahallu Subscription Paid",
+          "description": "Paid ₹1,200 for annual subscription",
+          "date": "2026-03-01",
+          "actor": "Treasurer"
+        },
+        {
+          "id": "TL-2",
+          "type": "MADRASA",
+          "title": "Madrasa Admission Approved",
+          "description": "Muhammed Rayan admitted to Class 4-A",
+          "date": "2026-02-15",
+          "actor": "Usthad Zainul Abid"
+        },
+        {
+          "id": "TL-3",
+          "type": "CERTIFICATE",
+          "title": "Residence Certificate Issued",
+          "description": "Issued by General Secretary",
+          "date": "2026-01-20",
+          "actor": "Secretary"
+        }
+      ]
+    },
+    {
+      "id": "MH-FAM-002",
+      "houseName": "Baitul Noor",
+      "houseNumber": "14/108",
+      "ward": "Ward 2 - Market Road",
+      "address": "Near Market Junction, Manoor",
+      "headName": "Usman Haji Thottathil",
+      "phone": "+91 98471 11223",
+      "memberCount": 6,
+      "totalContribution": 68000,
+      "pendingBalance": 0,
+      "lastPaymentDate": "2026-03-10",
+      "createdAt": "2025-01-05T10:00:00Z",
+      "timeline": [
+        {
+          "id": "TL-4",
+          "type": "PAYMENT",
+          "title": "Palli Contribution",
+          "description": "Paid ₹5,000 special donation",
+          "date": "2026-03-10",
+          "actor": "Treasurer"
+        }
+      ]
+    },
+    {
+      "id": "MH-FAM-003",
+      "houseName": "Al-Huda Manzil",
+      "houseNumber": "14/345",
+      "ward": "Ward 3 - River View",
+      "address": "Kadavu Road, Manoor",
+      "headName": "Siddique Master V.P.",
+      "phone": "+91 94472 33445",
+      "memberCount": 4,
+      "totalContribution": 36000,
+      "pendingBalance": 2400,
+      "lastPaymentDate": "2026-02-18",
+      "createdAt": "2025-01-12T10:00:00Z",
+      "timeline": []
+    },
+    {
+      "id": "MH-FAM-004",
+      "houseName": "Rose Manzil",
+      "houseNumber": "14/089",
+      "ward": "Ward 1 - School Road",
+      "address": "Near GLP School, Manoor",
+      "headName": "Hamza C.K.",
+      "phone": "+91 98463 55667",
+      "memberCount": 4,
+      "totalContribution": 29000,
+      "pendingBalance": 800,
+      "lastPaymentDate": "2026-03-05",
+      "createdAt": "2025-02-01T10:00:00Z",
+      "timeline": []
+    },
+    {
+      "id": "MH-FAM-005",
+      "houseName": "poilissery",
+      "houseNumber": "14/105",
+      "ward": "Ward 4 - Juma Masjid Road",
+      "address": "poilissery, House #14/105, Ward 4 - Juma Masjid Road, Manoor",
+      "headName": "afnas",
+      "phone": "9048704634",
+      "memberCount": 1,
+      "totalContribution": 0,
+      "pendingBalance": 0,
+      "createdAt": "2026-09-22T08:58:01.541Z",
+      "timeline": [
+        {
+          "id": "TL-1790067481541",
+          "type": "GENERAL",
+          "title": "Family Registered",
+          "description": "Family profile registered by afnas",
+          "date": "2026-09-22",
+          "actor": "afnas"
+        }
+      ]
+    },
+    {
+      "id": "MH-FAM-006",
+      "houseName": "popilissery",
+      "houseNumber": "14/106",
+      "ward": 2,
+      "address": "popilissery, House #14/106, 2, Manoor",
+      "headName": "afnas",
+      "phone": "9048704634",
+      "memberCount": 1,
+      "totalContribution": 0,
+      "pendingBalance": 0,
+      "createdAt": "2026-09-22T09:10:35.752Z",
+      "timeline": [
+        {
+          "id": "TL-1790068235752",
+          "type": "GENERAL",
+          "title": "Family Registered",
+          "description": "Family profile registered by afnas",
+          "date": "2026-09-22",
+          "actor": "afnas"
+        }
+      ]
+    },
+    {
+      "id": "MH-FAM-007",
+      "houseName": "tirur",
+      "houseNumber": "14/107",
+      "ward": 2,
+      "address": "tirur, House #14/107, 2, Manoor",
+      "headName": "shahal",
+      "phone": "9048704634",
+      "memberCount": 1,
+      "totalContribution": 0,
+      "pendingBalance": 0,
+      "createdAt": "2026-09-22T09:12:57.220Z",
+      "timeline": [
+        {
+          "id": "TL-1790068377220",
+          "type": "GENERAL",
+          "title": "Family Registered",
+          "description": "Family profile registered by shahal",
+          "date": "2026-09-22",
+          "actor": "shahal"
+        }
+      ]
+    },
+    {
+      "id": "MH-FAM-008",
+      "houseName": "potth pallii",
+      "houseNumber": "15/52",
+      "ward": "Ward 1 - School Road",
+      "address": "potth pallii, Manoor",
+      "headName": "habaj panikkar",
+      "phone": "9048704634",
+      "memberCount": 1,
+      "totalContribution": 0,
+      "pendingBalance": 0,
+      "createdAt": "2026-09-22T09:33:31.475Z",
+      "timeline": [
+        {
+          "id": "TL-1790069611476",
+          "type": "GENERAL",
+          "title": "Family Created",
+          "description": "Family registered in official census by Secretary",
+          "date": "2026-09-22",
+          "actor": "Secretary"
+        }
+      ]
+    },
+    {
+      "id": "MH-FAM-009",
+      "houseName": "panikkar",
+      "houseNumber": "14/109",
+      "ward": 1,
+      "address": "panikkar, House #14/109, 1, Manoor",
+      "headName": "habaj",
+      "phone": "9048704634",
+      "memberCount": 1,
+      "totalContribution": 850,
+      "pendingBalance": 350,
+      "createdAt": "2026-09-22T09:35:25.493Z",
+      "timeline": [
+        {
+          "id": "TL-1790070041226",
+          "type": "PAYMENT",
+          "title": "Payment: Other",
+          "description": "Paid ₹850 via UPI / ONLINE (Receipt: RCP-2026-0050)",
+          "date": "2026-09-22",
+          "actor": "habaj"
+        },
+        {
+          "id": "TL-1790069725493",
+          "type": "GENERAL",
+          "title": "Family Registered",
+          "description": "Family profile registered by habaj",
+          "date": "2026-09-22",
+          "actor": "habaj"
+        }
+      ],
+      "lastPaymentDate": "2026-09-22"
+    }
+  ],
+  "members": [
+    {
+      "id": "MH-MEM-00101",
+      "familyId": "MH-FAM-001",
+      "fullName": "Abdul Rahman K.",
+      "fatherName": "Kunjimoideen Kutty",
+      "motherName": "Fathima",
+      "dob": "1978-05-14",
+      "gender": "MALE",
+      "phone": "+91 94470 88990",
+      "whatsapp": "+91 94470 88990",
+      "email": "abdulrahman@example.com",
+      "houseName": "Kalluvila House",
+      "houseNumber": "14/232",
+      "ward": "Ward 4 - Juma Masjid Road",
+      "occupation": "Merchant / Business",
+      "relationshipToHead": "Head",
+      "status": "ACTIVE",
+      "bloodGroup": "O+",
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "MH-MEM-00102",
+      "familyId": "MH-FAM-001",
+      "fullName": "Suhara Beevi",
+      "fatherName": "Mohammed Kunhi",
+      "motherName": "Amina",
+      "dob": "1984-08-22",
+      "gender": "FEMALE",
+      "phone": "+91 94470 88991",
+      "houseName": "Kalluvila House",
+      "houseNumber": "14/232",
+      "ward": "Ward 4 - Juma Masjid Road",
+      "occupation": "Homemaker",
+      "relationshipToHead": "Spouse",
+      "status": "ACTIVE",
+      "bloodGroup": "B+",
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "MH-MEM-00103",
+      "familyId": "MH-FAM-001",
+      "fullName": "Muhammed Rayan",
+      "fatherName": "Abdul Rahman K.",
+      "motherName": "Suhara Beevi",
+      "dob": "2016-04-12",
+      "gender": "MALE",
+      "phone": "+91 94470 88990",
+      "houseName": "Kalluvila House",
+      "houseNumber": "14/232",
+      "ward": "Ward 4 - Juma Masjid Road",
+      "occupation": "Student",
+      "relationshipToHead": "Son",
+      "status": "ACTIVE",
+      "bloodGroup": "O+",
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "MH-MEM-00104",
+      "familyId": "MH-FAM-001",
+      "fullName": "Ayesha Rida",
+      "fatherName": "Abdul Rahman K.",
+      "motherName": "Suhara Beevi",
+      "dob": "2019-11-05",
+      "gender": "FEMALE",
+      "phone": "+91 94470 88990",
+      "houseName": "Kalluvila House",
+      "houseNumber": "14/232",
+      "ward": "Ward 4 - Juma Masjid Road",
+      "occupation": "Student",
+      "relationshipToHead": "Daughter",
+      "status": "ACTIVE",
+      "bloodGroup": "A+",
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": "MH-MEM-00105",
+      "familyId": "MH-FAM-005",
+      "fullName": "afnas",
+      "fatherName": "",
+      "motherName": "",
+      "dob": "1995-01-01",
+      "gender": "MALE",
+      "phone": "9048704634",
+      "houseName": "poilissery",
+      "houseNumber": "14/105",
+      "ward": "Ward 4 - Juma Masjid Road",
+      "occupation": "Self-employed",
+      "relationshipToHead": "Head",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-22T08:58:01.541Z"
+    },
+    {
+      "id": "MH-MEM-00106",
+      "familyId": "MH-FAM-006",
+      "fullName": "afnas",
+      "fatherName": "",
+      "motherName": "",
+      "dob": "1995-01-01",
+      "gender": "MALE",
+      "phone": "9048704634",
+      "houseName": "popilissery",
+      "houseNumber": "14/106",
+      "ward": 2,
+      "occupation": "Self-employed",
+      "relationshipToHead": "Head",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-22T09:10:35.752Z"
+    },
+    {
+      "id": "MH-MEM-00107",
+      "familyId": "MH-FAM-007",
+      "fullName": "shahal",
+      "fatherName": "",
+      "motherName": "",
+      "dob": "1995-01-01",
+      "gender": "MALE",
+      "phone": "9048704634",
+      "houseName": "tirur",
+      "houseNumber": "14/107",
+      "ward": 2,
+      "occupation": "Self-employed",
+      "relationshipToHead": "Head",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-22T09:12:57.220Z"
+    },
+    {
+      "id": "MH-MEM-00108",
+      "familyId": "MH-FAM-009",
+      "fullName": "habaj",
+      "fatherName": "K.P. Moideen Kutty",
+      "motherName": "Fathima Beevi",
+      "dob": "1995-04-15",
+      "gender": "MALE",
+      "phone": "9048704634",
+      "houseName": "panikkar",
+      "houseNumber": "14/109",
+      "ward": 1,
+      "occupation": "Self-employed",
+      "relationshipToHead": "Head",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-22T09:35:25.494Z",
+      "bloodGroup": "B+"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU-001",
+      "admissionNo": "MAD-2026-089",
+      "name": "Muhammed Rayan",
+      "familyId": "MH-FAM-001",
+      "memberId": "MH-MEM-00103",
+      "guardianName": "Abdul Rahman K.",
+      "guardianPhone": "+91 94470 88990",
+      "standard": "Class 4",
+      "division": "A",
+      "dob": "2016-04-12",
+      "admissionDate": "2024-05-15",
+      "feeStatus": "PAID",
+      "monthlyFee": 350,
+      "attendanceRate": 96,
+      "rank": 1
+    },
+    {
+      "id": "STU-002",
+      "admissionNo": "MAD-2026-090",
+      "name": "Amina Zehra",
+      "familyId": "MH-FAM-002",
+      "guardianName": "Usman Haji",
+      "guardianPhone": "+91 98471 11223",
+      "standard": "Class 4",
+      "division": "A",
+      "dob": "2016-06-20",
+      "admissionDate": "2024-05-15",
+      "feeStatus": "PAID",
+      "monthlyFee": 350,
+      "attendanceRate": 98,
+      "rank": 2
+    },
+    {
+      "id": "STU-003",
+      "admissionNo": "MAD-2026-091",
+      "name": "Bilal Ahmed",
+      "familyId": "MH-FAM-003",
+      "guardianName": "Siddique Master",
+      "guardianPhone": "+91 94472 33445",
+      "standard": "Class 5",
+      "division": "B",
+      "dob": "2015-02-10",
+      "admissionDate": "2023-05-20",
+      "feeStatus": "PENDING",
+      "monthlyFee": 400,
+      "attendanceRate": 92,
+      "rank": 3
+    },
+    {
+      "id": "STU-004",
+      "admissionNo": "MAD-2026-092",
+      "name": "Fathima Hiba",
+      "familyId": "MH-FAM-004",
+      "guardianName": "Hamza C.K.",
+      "guardianPhone": "+91 98463 55667",
+      "standard": "Class 5",
+      "division": "B",
+      "dob": "2015-09-18",
+      "admissionDate": "2023-05-20",
+      "feeStatus": "PAID",
+      "monthlyFee": 400,
+      "attendanceRate": 95,
+      "rank": 1
+    },
+    {
+      "id": "STU-MUCGTW67",
+      "admissionNo": "MAD-2026-093",
+      "name": "Ayesha Rida",
+      "familyId": "MH-FAM-001",
+      "guardianName": "Abdul Rahman K.",
+      "guardianPhone": "+91 94470 88990",
+      "standard": "Class 1",
+      "division": "A",
+      "dob": "2019-11-05",
+      "admissionDate": "2026-09-22",
+      "feeStatus": "PAID",
+      "monthlyFee": 350,
+      "attendanceRate": 100
+    }
+  ],
+  "teachers": [
+    {
+      "id": "TCH-001",
+      "name": "Usthad Zainul Abid Musliyar",
+      "qualification": "Baqavi, Fazilul Falah",
+      "phone": "+91 98473 45678",
+      "subjects": [
+        "Quran",
+        "Tajweed",
+        "Fiqh"
+      ],
+      "classes": [
+        "Class 5",
+        "Class 7",
+        "Class 10"
+      ],
+      "experience": "18 Years",
+      "bio": "Chief Usthad and Khatib of Manoor Juma Masjid."
+    },
+    {
+      "id": "TCH-002",
+      "name": "Usthad Shamseer Faizy",
+      "qualification": "Faizy, MA Arabic",
+      "phone": "+91 94474 56789",
+      "subjects": [
+        "Arabic",
+        "Hadith",
+        "Islamic History"
+      ],
+      "classes": [
+        "Class 4",
+        "Class 6",
+        "Class 8"
+      ],
+      "experience": "11 Years",
+      "bio": "Senior teacher specializing in Tajweed and Arabic linguistics."
+    },
+    {
+      "id": "TCH-003",
+      "name": "Muallima Bushra",
+      "qualification": "Hafiza, Afzal-ul-Ulama",
+      "phone": "+91 94475 67890",
+      "subjects": [
+        "Quran Hifz",
+        "Akhlaq",
+        "Basic Islam"
+      ],
+      "classes": [
+        "Class 1",
+        "Class 2",
+        "Class 3"
+      ],
+      "experience": "7 Years",
+      "bio": "Primary section coordinator and women study circle mentor."
+    }
+  ],
+  "marks": [
+    {
+      "studentId": "STU-001",
+      "studentName": "Muhammed Rayan",
+      "standard": "Class 4",
+      "exam": "Annual Examination 2026",
+      "subjects": {
+        "quran": 98,
+        "tajweed": 95,
+        "fiqh": 92,
+        "aqeedah": 94,
+        "hadith": 85,
+        "akhlaq": 90,
+        "arabic": 85
+      },
+      "totalMarks": 639,
+      "percentage": 91.3,
+      "grade": "A+",
+      "rank": 1,
+      "remarks": "Satisfactory performance",
+      "id": "MRK-MUCF6AW7"
+    },
+    {
+      "id": "MRK-001",
+      "studentId": "STU-001",
+      "studentName": "Muhammed Rayan",
+      "standard": "Class 4",
+      "exam": "Annual Examination 2026",
+      "subjects": {
+        "quran": 98,
+        "tajweed": 95,
+        "fiqh": 92,
+        "aqeedah": 94,
+        "hadith": 90,
+        "akhlaq": 97,
+        "arabic": 92
+      },
+      "totalMarks": 658,
+      "percentage": 94,
+      "grade": "A+",
+      "rank": 1,
+      "remarks": "Outstanding reciter with pristine Tajweed rules.",
+      "date": "2026-03-15"
+    },
+    {
+      "id": "MRK-002",
+      "studentId": "STU-002",
+      "studentName": "Amina Zehra",
+      "standard": "Class 4",
+      "exam": "Annual Examination 2026",
+      "subjects": {
+        "quran": 96,
+        "tajweed": 94,
+        "fiqh": 90,
+        "aqeedah": 92,
+        "hadith": 88,
+        "akhlaq": 95,
+        "arabic": 90
+      },
+      "totalMarks": 645,
+      "percentage": 92.1,
+      "grade": "A+",
+      "rank": 2,
+      "remarks": "Excellent discipline and consistent high grades.",
+      "date": "2026-03-15"
+    }
+  ],
+  "attendance": [],
+  "payments": [
+    {
+      "id": "PAY-MUCHHFNU",
+      "receiptNumber": "RCP-2026-0050",
+      "memberId": "MH-MEM-00108",
+      "memberName": "habaj",
+      "familyId": "MH-FAM-009",
+      "houseName": "panikkar",
+      "amount": 850,
+      "category": "Other",
+      "paymentMethod": "UPI / ONLINE",
+      "transactionId": "UPI-70039380",
+      "date": "2026-09-22",
+      "status": "Paid",
+      "authorizedPerson": "habaj",
+      "remarks": "Varasangiya online contribution for Manoor Mahallu"
+    },
+    {
+      "id": "PAY-001",
+      "receiptNumber": "RCP-2026-0042",
+      "memberId": "MH-MEM-00101",
+      "memberName": "Abdul Rahman K.",
+      "familyId": "MH-FAM-001",
+      "houseName": "Kalluvila House",
+      "amount": 1200,
+      "category": "Mahallu Subscription",
+      "paymentMethod": "UPI / ONLINE",
+      "transactionId": "UPI-IN-9823482734",
+      "date": "2026-03-01",
+      "status": "Paid",
+      "authorizedPerson": "K. Mohammed Ashraf (Treasurer)",
+      "remarks": "Mahallu annual subscription 2026"
+    },
+    {
+      "id": "PAY-002",
+      "receiptNumber": "RCP-2026-0043",
+      "memberId": "MH-MEM-00101",
+      "memberName": "Abdul Rahman K.",
+      "familyId": "MH-FAM-001",
+      "houseName": "Kalluvila House",
+      "amount": 700,
+      "category": "Madrasa Fee",
+      "paymentMethod": "CASH",
+      "date": "2026-03-02",
+      "status": "Paid",
+      "authorizedPerson": "Usthad Zainul Abid",
+      "remarks": "Madrasa fee for Feb-Mar 2026 (Muhammed Rayan)"
+    },
+    {
+      "id": "PAY-003",
+      "receiptNumber": "RCP-2026-0044",
+      "memberName": "Usman Haji Thottathil",
+      "familyId": "MH-FAM-002",
+      "houseName": "Baitul Noor",
+      "amount": 5000,
+      "category": "Palli Contribution",
+      "paymentMethod": "BANK TRANSFER",
+      "transactionId": "NEFT-598237482",
+      "date": "2026-03-10",
+      "status": "Paid",
+      "authorizedPerson": "K. Mohammed Ashraf (Treasurer)",
+      "remarks": "Special renovation fund"
+    },
+    {
+      "id": "PAY-004",
+      "receiptNumber": "RCP-2026-0045",
+      "memberName": "Siddique Master V.P.",
+      "familyId": "MH-FAM-003",
+      "houseName": "Al-Huda Manzil",
+      "amount": 1500,
+      "category": "Zakat",
+      "paymentMethod": "CASH",
+      "date": "2026-03-12",
+      "status": "Paid",
+      "authorizedPerson": "K. Mohammed Ashraf (Treasurer)",
+      "remarks": "Ramadan advance zakat fund"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TRX-MUCHHFO3",
+      "type": "INCOME",
+      "category": "Other",
+      "amount": 850,
+      "date": "2026-09-22",
+      "description": "Other from habaj (panikkar)",
+      "party": "habaj",
+      "paymentMethod": "UPI / ONLINE",
+      "receiptNumber": "RCP-2026-0050",
+      "createdBy": "habaj"
+    },
+    {
+      "id": "TRX-001",
+      "type": "INCOME",
+      "category": "Mahallu Contribution",
+      "amount": 145000,
+      "date": "2026-03-01",
+      "description": "Monthly Mahallu subscription collection",
+      "party": "Mahallu Families",
+      "paymentMethod": "UPI / Cash",
+      "createdBy": "Treasurer",
+      "approvedBy": "Secretary"
+    },
+    {
+      "id": "TRX-002",
+      "type": "INCOME",
+      "category": "Madrasa Fees",
+      "amount": 63000,
+      "date": "2026-03-05",
+      "description": "Madrasa monthly fee collection",
+      "party": "Madrasa Parents",
+      "paymentMethod": "Cash",
+      "createdBy": "Madrasa Admin",
+      "approvedBy": "Treasurer"
+    },
+    {
+      "id": "TRX-003",
+      "type": "INCOME",
+      "category": "Donations & Sadaqah",
+      "amount": 112000,
+      "date": "2026-03-10",
+      "description": "Friday Jumua collection & special fund",
+      "party": "Mosque Attendees",
+      "paymentMethod": "Cash",
+      "createdBy": "Treasurer"
+    },
+    {
+      "id": "TRX-004",
+      "type": "INCOME",
+      "category": "Property Rent",
+      "amount": 105000,
+      "date": "2026-03-11",
+      "description": "Mahallu Commercial Complex rental income",
+      "party": "Commercial Tenants (8 Shops)",
+      "paymentMethod": "Bank Transfer",
+      "createdBy": "Treasurer"
+    },
+    {
+      "id": "TRX-005",
+      "type": "EXPENSE",
+      "category": "Imam & Usthad Salary",
+      "amount": 120000,
+      "date": "2026-03-05",
+      "description": "Staff honorarium and monthly remuneration",
+      "party": "Mosque & Madrasa Faculty",
+      "paymentMethod": "Bank Transfer",
+      "createdBy": "Treasurer",
+      "approvedBy": "President"
+    },
+    {
+      "id": "TRX-006",
+      "type": "EXPENSE",
+      "category": "Electricity & Water",
+      "amount": 28500,
+      "date": "2026-03-08",
+      "description": "KSEB commercial bill for Mosque & Madrasa",
+      "party": "KSEB Kerala",
+      "paymentMethod": "Online",
+      "createdBy": "Secretary"
+    },
+    {
+      "id": "TRX-007",
+      "type": "EXPENSE",
+      "category": "Welfare & Medical Assistance",
+      "amount": 45000,
+      "date": "2026-03-14",
+      "description": "Dialysis & emergency patient aid",
+      "party": "Beneficiary Families (Ward 2 & 4)",
+      "paymentMethod": "Bank Transfer",
+      "createdBy": "Welfare Admin",
+      "approvedBy": "Secretary"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "PRG-001",
+      "englishTitle": "Daily Dars & Holy Quran Tafseer",
+      "malayalamTitle": "പ്രതിദിന ഖുർആൻ ദർസ് & തഫ്സീർ",
+      "arabicTitle": "درس التفسير اليومي",
+      "description": "Comprehensive spiritual Tafseer study circle following Maghrib prayer led by Chief Khatib Usthad Zainul Abid Musliyar.",
+      "date": "2026-09-22",
+      "time": "07:15 PM - 08:30 PM",
+      "venue": "Manoor Juma Masjid Main Hall",
+      "speaker": "Usthad Zainul Abid Musliyar",
+      "organizer": "Manoor Mahall Committee & Da'wah Cell",
+      "category": "RELIGIOUS",
+      "status": "UPCOMING",
+      "registrationRequired": false,
+      "registeredCount": 88
+    },
+    {
+      "id": "PRG-002",
+      "englishTitle": "Nabidina Maha Sammelanam & Meelad Rally",
+      "malayalamTitle": "നബിദിന മഹാസമ്മേളനം & ദഫ് റാലി",
+      "description": "Grand Prophet Day commemoration featuring keynote lectures, cultural Duff Muttu by Madrasa students, and community feast.",
+      "date": "2026-09-28",
+      "time": "04:00 PM - 10:30 PM",
+      "venue": "Manoor Mahall Islamic Center Grounds",
+      "speaker": "Sayyid Munavvar Ali Shihab Thangal",
+      "organizer": "Mahall Committee & Madrasa Management",
+      "category": "RELIGIOUS",
+      "status": "UPCOMING",
+      "registrationRequired": true,
+      "registeredCount": 423
+    },
+    {
+      "id": "PRG-003",
+      "englishTitle": "Majlisunnoor & Dua Majlis",
+      "malayalamTitle": "മജ്‌ലിസുന്നൂർ & പ്രാർത്ഥനാ സദസ്സ്",
+      "description": "Monthly spiritual remembrance gathering and collective prayers for the deceased and community well-being.",
+      "date": "2026-10-02",
+      "time": "07:00 PM - 09:30 PM",
+      "venue": "Manoor Juma Masjid",
+      "speaker": "Usthad Shamseer Faizy",
+      "organizer": "SYS Manoor Unit",
+      "category": "RELIGIOUS",
+      "status": "UPCOMING",
+      "registrationRequired": false,
+      "registeredCount": 165
+    },
+    {
+      "id": "PRG-004",
+      "englishTitle": "Madrasa Talent Fest & Quran Competition",
+      "malayalamTitle": "മദ്റസാ പ്രതിഭാ സംഗമം & ഖുർആൻ മത്സരം",
+      "description": "Annual inter-class recitation, Qira'ath, speech, and Islamic calligraphy competitions across 10 standards.",
+      "date": "2026-10-15",
+      "time": "08:30 AM - 05:00 PM",
+      "venue": "Darul Uloom Madrasa Auditorium",
+      "speaker": "Panel of Scholars & Judges",
+      "organizer": "Madrasa PTA & Staff Council",
+      "category": "MADRASA",
+      "status": "UPCOMING",
+      "registrationRequired": true,
+      "registeredCount": 115
+    },
+    {
+      "id": "PRG-005",
+      "englishTitle": "Free Multispecialty Medical & Blood Donation Camp",
+      "malayalamTitle": "സൗജന്യ മെഗാ മെഡിക്കൽ & രക്തദാന ക്യാമ്പ്",
+      "description": "Collaborative diagnostic camp with leading hospital: General Medicine, Cardiology screening, Pediatrics, and Blood Drive.",
+      "date": "2026-10-22",
+      "time": "09:00 AM - 02:00 PM",
+      "venue": "Manoor Community Hall",
+      "speaker": "Dr. Faheem Rahman MBBS, MD",
+      "organizer": "Manoor Mahall Relief Cell & Blood Donors Wing",
+      "category": "COMMUNITY",
+      "status": "UPCOMING",
+      "registrationRequired": true,
+      "registeredCount": 78
+    },
+    {
+      "id": "PRG-006",
+      "englishTitle": "Youth Career Guidance & Civil Services Workshop",
+      "malayalamTitle": "യുവജന കരിയർ ഗൈഡൻസ് & സിവിൽ സർവീസ് ശില്പശാല",
+      "description": "Interactive roadmap for higher secondary and undergraduate students targeting government exams and higher education.",
+      "date": "2026-11-05",
+      "time": "10:00 AM - 01:00 PM",
+      "venue": "Islamic Cultural Library Hall",
+      "speaker": "Prof. Haris K. (State Career Counselor)",
+      "organizer": "SKSSF Manoor Mahall Branch",
+      "category": "YOUTH",
+      "status": "UPCOMING",
+      "registrationRequired": true,
+      "registeredCount": 65
+    }
+  ],
+  "announcements": [
+    {
+      "englishTitle": "habajine 7nte dikr majlis",
+      "malayalamTitle": "habajine 7nte dikr majlis",
+      "content": "habajine 7nte dikr majlis",
+      "category": "General",
+      "priority": "HIGH",
+      "isPinned": false,
+      "date": "2026-09-22",
+      "published": true,
+      "author": "Afnas (Mahallu Super Admin)",
+      "id": "ANN-MUCGTIVM"
+    },
+    {
+      "id": "ANN-001",
+      "englishTitle": "Ramadan 1447 Mahallu Welfare Kit Distribution",
+      "malayalamTitle": "റമദാൻ 1447 മഹല്ല് റിലീഫ് കിറ്റ് വിതരണം",
+      "content": "അർഹരായ കുടുംബങ്ങൾക്കുള്ള റമദാൻ ഭക്ഷ്യധാന്യ കിറ്റുകളുടെ അപേക്ഷകൾ മഹല്ല് ഓഫീസിൽ സ്വീകരിച്ചു തുടങ്ങി. അവസാന തീയതി ഒക്ടോബർ 10.",
+      "category": "Welfare",
+      "isPinned": true,
+      "priority": "HIGH",
+      "date": "2026-09-20",
+      "published": true,
+      "author": "Secretary P.K. Abdul Majeed"
+    },
+    {
+      "id": "ANN-002",
+      "englishTitle": "Annual Madrasa Examination Results & Admissions 2026",
+      "malayalamTitle": "വാർഷിക മദ്റസ പരീക്ഷാഫലം & പുതിയ അഡ്മിഷൻ",
+      "content": "2026 വാർഷിക മദ്റസാ പരീക്ഷാഫലം മദ്റസാ പോർട്ടലിൽ ലഭ്യമാണ്. ഒന്നാം ക്ലാസിലേക്കുള്ള പുതിയ പ്രവേശനം ആരംഭിച്ചു.",
+      "category": "Madrasa",
+      "isPinned": true,
+      "priority": "NORMAL",
+      "date": "2026-09-18",
+      "published": true,
+      "author": "Usthad Zainul Abid"
+    },
+    {
+      "id": "ANN-003",
+      "englishTitle": "Notice: Mosque Friday Prayer & Parking Regulations",
+      "malayalamTitle": "ജുമുഅ നമസ്കാരം: ട്രാഫിക് & പാർക്കിംഗ് അറിയിപ്പ്",
+      "content": "റോഡിൽ ഗതാഗത തടസ്സമുണ്ടാകാതിരിക്കാൻ വാഹനങ്ങൾ നിശ്ചിത പാർക്കിംഗ് ഗ്രൗണ്ടിൽ മാത്രം പാർക്ക് ചെയ്യണമെന്ന് അഭ്യർത്ഥിക്കുന്നു.",
+      "category": "Mosque",
+      "isPinned": false,
+      "priority": "NORMAL",
+      "date": "2026-09-15",
+      "published": true,
+      "author": "Manoor Mahall Committee"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "MH-REG-2026-000125",
+      "type": "Marriage",
+      "applicantName": "Shafi Rahman",
+      "applicantPhone": "+91 94470 12890",
+      "familyId": "MH-FAM-001",
+      "details": {
+        "groomName": "Shafi Rahman",
+        "groomFather": "Abdul Rahman K.",
+        "brideName": "Fathimath Zuhra",
+        "brideMahallu": "Edavanna Mahallu",
+        "nikahDate": "2026-10-18",
+        "nikahVenue": "Manoor Juma Masjid",
+        "mahrAgreed": "5 Pavans Gold"
+      },
+      "status": "APPROVED",
+      "submittedAt": "2026-09-18T14:30:00Z",
+      "reviewedBy": "habaj",
+      "reviewNotes": "Witness documents received; awaiting NOC verification from Edavanna Mahallu.",
+      "statusHistory": [
+        {
+          "status": "APPROVED",
+          "updatedAt": "2026-09-22T09:39:06.677Z",
+          "updatedBy": "habaj",
+          "notes": "Witness documents received; awaiting NOC verification from Edavanna Mahallu."
+        },
+        {
+          "status": "APPROVED",
+          "updatedAt": "2026-09-22T09:38:16.836Z",
+          "updatedBy": "habaj",
+          "notes": "Witness documents received; awaiting NOC verification from Edavanna Mahallu."
+        },
+        {
+          "status": "REJECTED",
+          "updatedAt": "2026-09-22T09:22:19.535Z",
+          "updatedBy": "Afnas (Mahallu Super Admin)",
+          "notes": "Witness documents received; awaiting NOC verification from Edavanna Mahallu."
+        },
+        {
+          "status": "APPROVED",
+          "updatedAt": "2026-09-22T09:10:55.787Z",
+          "updatedBy": "General Secretary",
+          "notes": "Witness documents received; awaiting NOC verification from Edavanna Mahallu."
+        },
+        {
+          "status": "APPROVED",
+          "updatedAt": "2026-09-22T08:36:48.422Z",
+          "updatedBy": "K. Mohammed Ashraf",
+          "notes": "Witness documents received; awaiting NOC verification from Edavanna Mahallu."
+        },
+        {
+          "status": "APPROVED",
+          "updatedAt": "2026-09-22T08:26:43.016Z",
+          "updatedBy": "Usthad Zainul Abid Musliyar",
+          "notes": "Witness documents received; awaiting NOC verification from Edavanna Mahallu."
+        },
+        {
+          "status": "SUBMITTED",
+          "updatedAt": "2026-09-18T14:30:00Z",
+          "updatedBy": "Shafi Rahman",
+          "notes": "Application registered online with identity proofs."
+        },
+        {
+          "status": "UNDER REVIEW",
+          "updatedAt": "2026-09-19T10:00:00Z",
+          "updatedBy": "Secretary",
+          "notes": "Initial documents verified."
+        }
+      ]
+    },
+    {
+      "id": "MH-REG-2026-000126",
+      "type": "Madrasa Admission",
+      "applicantName": "Abdul Rahman K.",
+      "applicantPhone": "+91 94470 88990",
+      "familyId": "MH-FAM-001",
+      "details": {
+        "studentName": "Ayesha Rida",
+        "gender": "FEMALE",
+        "dob": "2019-11-05",
+        "requestedStandard": "Class 1",
+        "guardianName": "Abdul Rahman K."
+      },
+      "status": "APPROVED",
+      "submittedAt": "2026-09-15T09:00:00Z",
+      "reviewedBy": "Afnas (Mahallu Super Admin)",
+      "reviewNotes": "Admitted to Class 1-A. Admission # MAD-2026-104",
+      "statusHistory": [
+        {
+          "status": "APPROVED",
+          "updatedAt": "2026-09-22T09:22:22.878Z",
+          "updatedBy": "Afnas (Mahallu Super Admin)",
+          "notes": "Admitted to Class 1-A. Admission # MAD-2026-104"
+        },
+        {
+          "status": "SUBMITTED",
+          "updatedAt": "2026-09-15T09:00:00Z",
+          "updatedBy": "Abdul Rahman K."
+        },
+        {
+          "status": "APPROVED",
+          "updatedAt": "2026-09-16T11:00:00Z",
+          "updatedBy": "Usthad Zainul Abid",
+          "notes": "Admission granted."
+        }
+      ]
+    },
+    {
+      "id": "MH-REG-2026-000127",
+      "type": "Certificate",
+      "applicantName": "Usman Haji Thottathil",
+      "applicantPhone": "+91 98471 11223",
+      "familyId": "MH-FAM-002",
+      "details": {
+        "certificateType": "Residence",
+        "purpose": "Passport Application for Haj Travel"
+      },
+      "status": "UNDER REVIEW",
+      "submittedAt": "2026-09-10T11:20:00Z",
+      "reviewedBy": "Afnas (Mahallu Super Admin)",
+      "statusHistory": [
+        {
+          "status": "UNDER REVIEW",
+          "updatedAt": "2026-09-22T09:22:30.247Z",
+          "updatedBy": "Afnas (Mahallu Super Admin)",
+          "notes": ""
+        },
+        {
+          "status": "APPROVED",
+          "updatedAt": "2026-09-11T12:00:00Z",
+          "updatedBy": "Secretary",
+          "notes": "Residence certificate issued and sealed."
+        }
+      ],
+      "reviewNotes": ""
+    }
+  ],
+  "services": [
+    {
+      "id": "SRV-001",
+      "title": "24/7 Community Ambulance Service",
+      "category": "Emergency Medical",
+      "description": "Fully equipped critical care ambulance stationed at Manoor Central for immediate transfer to Medical College & District hospitals.",
+      "eligibility": "All Mahallu families and nearby residents in emergency situations.",
+      "contactPerson": "K. Basheer (Ambulance Coordinator)",
+      "contactPhone": "+91 98470 99881",
+      "isEmergency": true,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SRV-002",
+      "title": "Janaza Support & Burial Arrangement",
+      "category": "Janaza Care",
+      "description": "Immediate funeral preparation, Ghusl facilities, Qabar excavation, shroud (Kafan) provision, and Janaza prayer organization.",
+      "eligibility": "All Mahallu members and bereaved families.",
+      "contactPerson": "Usthad Zainul Abid & Janaza Wing",
+      "contactPhone": "+91 98473 45678",
+      "isEmergency": true,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SRV-003",
+      "title": "Emergency Blood Donors Wing",
+      "category": "Healthcare",
+      "description": "Quick donor matching across rare and common blood groups with over 350 registered youth donors in Manoor.",
+      "eligibility": "Any patient admitted to regional healthcare centers.",
+      "contactPerson": "Navas K. (Blood Wing Head)",
+      "contactPhone": "+91 94476 11223",
+      "isEmergency": true,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SRV-004",
+      "title": "Medical & Dialysis Welfare Fund",
+      "category": "Welfare",
+      "description": "Monthly medical assistance and subsidized medicines for chronic patients, kidney dialysis, and oncology treatments.",
+      "eligibility": "Economically challenged families verified by Mahallu Welfare Cell.",
+      "contactPerson": "P.K. Abdul Majeed (Secretary)",
+      "contactPhone": "+91 94471 23456",
+      "isEmergency": false,
+      "status": "ACTIVE"
+    },
+    {
+      "id": "SRV-005",
+      "title": "Marriage Financial Assistance",
+      "category": "Welfare",
+      "description": "Financial grants and jewelry support for underprivileged brides from low-income families.",
+      "eligibility": "Residents of Manoor Mahall with annual income under ₹75,000.",
+      "contactPerson": "Welfare Committee Panel",
+      "contactPhone": "+91 98462 34567",
+      "isEmergency": false,
+      "status": "ACTIVE"
+    }
+  ],
+  "serviceRequests": [
+    {
+      "id": "MH-SRV-2026-046",
+      "serviceId": "SRV-004",
+      "serviceTitle": "Medical & Dialysis Welfare Fund",
+      "applicantName": "afnas",
+      "applicantPhone": "9048704634",
+      "urgency": "EMERGENCY",
+      "description": "adsfs",
+      "status": "NEW",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "MH-SRV-2026-042",
+      "serviceId": "SRV-001",
+      "serviceTitle": "24/7 Community Ambulance Service",
+      "applicantName": "Moideenkutty K.",
+      "applicantPhone": "+91 98478 55443",
+      "familyId": "MH-FAM-003",
+      "urgency": "EMERGENCY",
+      "description": "Emergency patient transfer required to Kozhikode Medical College.",
+      "status": "RESOLVED",
+      "assignedTo": "Ambulance Driver Riyas",
+      "date": "2026-09-20"
+    },
+    {
+      "id": "MH-SRV-2026-043",
+      "serviceId": "SRV-004",
+      "serviceTitle": "Medical & Dialysis Welfare Fund",
+      "applicantName": "Fathima Beevi",
+      "applicantPhone": "+91 94479 22110",
+      "familyId": "MH-FAM-004",
+      "urgency": "HIGH",
+      "description": "Bi-weekly dialysis financial grant application for October 2026.",
+      "status": "IN PROGRESS",
+      "assignedTo": "Welfare Admin",
+      "date": "2026-09-19"
+    }
+  ],
+  "problemCases": [
+    {
+      "id": "MH-CASE-2026-019",
+      "category": "Financial Difficulty",
+      "applicantName": "Confidential Member",
+      "applicantPhone": "+91 98470 00000",
+      "familyId": "MH-FAM-001",
+      "priority": "HIGH",
+      "status": "In Progress",
+      "assignedScholarOrStaff": "Usthad Zainul Abid",
+      "description": "Sudden unemployment leading to accumulated rent debt and school fees.",
+      "privateNotes": [
+        {
+          "date": "2026-09-15",
+          "author": "Usthad Zainul Abid",
+          "note": "Met with family head in confidence. Recommended immediate allocation from emergency welfare reserve."
+        }
+      ],
+      "date": "2026-09-14"
+    }
+  ],
+  "zakatCalculations": [],
+  "warasathCases": [],
+  "certificates": [
+    {
+      "id": "CERT-001",
+      "certificateNumber": "MH-CERT-2026-089",
+      "type": "Residence",
+      "recipientName": "Abdul Rahman K.",
+      "familyId": "MH-FAM-001",
+      "houseName": "Kalluvila House",
+      "issueDate": "2026-01-20",
+      "validUntil": "2027-01-20",
+      "authorizedSignatory": "P.K. Abdul Majeed (General Secretary)",
+      "purpose": "Official Address & Family Verification",
+      "verificationHash": "v_8923a9d0f81e33c4"
+    },
+    {
+      "id": "CERT-002",
+      "certificateNumber": "MH-CERT-2026-090",
+      "type": "Membership",
+      "recipientName": "Usman Haji Thottathil",
+      "familyId": "MH-FAM-002",
+      "houseName": "Baitul Noor",
+      "issueDate": "2026-02-10",
+      "validUntil": "2027-02-10",
+      "authorizedSignatory": "Sayyid Ahmed Koya Thangal (President)",
+      "purpose": "Life Membership in Good Standing",
+      "verificationHash": "v_1092b7c4e5f29a01"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUD-MUCHIEC6",
+      "timestamp": "2026-09-22T09:41:26.166Z",
+      "userId": "USR-MUCGHRPG",
+      "userName": "shahal",
+      "role": "MEMBER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-MUCGHRPG",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCHHFO3",
+      "timestamp": "2026-09-22T09:40:41.235Z",
+      "userId": "USR-MUCHAO1H",
+      "userName": "habaj",
+      "role": "TREASURER",
+      "action": "PAYMENT_RECORDED",
+      "entity": "Payment",
+      "entityId": "PAY-MUCHHFNU",
+      "details": "Recorded ₹850 for Other from panikkar (RCP-2026-0050)"
+    },
+    {
+      "id": "AUD-MUCHFEPH",
+      "timestamp": "2026-09-22T09:39:06.677Z",
+      "userId": "USR-MUCHAO1H",
+      "userName": "habaj",
+      "role": "SECRETARY",
+      "action": "REGISTRATION_STATUS_UPDATED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000125",
+      "details": "Status updated to APPROVED for Shafi Rahman"
+    },
+    {
+      "id": "AUD-MUCHEC90",
+      "timestamp": "2026-09-22T09:38:16.836Z",
+      "userId": "USR-MUCHAO1H",
+      "userName": "habaj",
+      "role": "SECRETARY",
+      "action": "REGISTRATION_STATUS_UPDATED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000125",
+      "details": "Status updated to APPROVED for Shafi Rahman"
+    },
+    {
+      "id": "AUD-MUCHAO1I",
+      "timestamp": "2026-09-22T09:35:25.494Z",
+      "userId": "USR-MUCHAO1H",
+      "userName": "habaj",
+      "role": "MEMBER",
+      "action": "MEMBER_REGISTERED",
+      "entity": "Member",
+      "entityId": "MH-MEM-00108",
+      "details": "New member registration for habaj (Username: habaj)"
+    },
+    {
+      "id": "AUD-MUCH882C",
+      "timestamp": "2026-09-22T09:33:31.476Z",
+      "userId": "SYS",
+      "userName": "Secretary",
+      "role": "ADMIN",
+      "action": "FAMILY_CREATED",
+      "entity": "Family",
+      "entityId": "MH-FAM-008",
+      "details": "Family potth pallii added"
+    },
+    {
+      "id": "AUD-MUCH5MKM",
+      "timestamp": "2026-09-22T09:31:30.310Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "SUPER ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-AFNAS",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCGXM5E",
+      "timestamp": "2026-09-22T09:25:16.514Z",
+      "userId": "USR-MUCGHRPG",
+      "userName": "shahal",
+      "role": "MEMBER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-MUCGHRPG",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCGWVLZ",
+      "timestamp": "2026-09-22T09:24:42.119Z",
+      "userId": "USR-MUCGHRPG",
+      "userName": "shahal",
+      "role": "MEMBER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-MUCGHRPG",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCGU1UV",
+      "timestamp": "2026-09-22T09:22:30.247Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "SECRETARY",
+      "action": "REGISTRATION_STATUS_UPDATED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000127",
+      "details": "Status updated to UNDER REVIEW for Usman Haji Thottathil"
+    },
+    {
+      "id": "AUD-MUCGTW68",
+      "timestamp": "2026-09-22T09:22:22.880Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "SECRETARY",
+      "action": "REGISTRATION_STATUS_UPDATED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000126",
+      "details": "Status updated to APPROVED for Abdul Rahman K."
+    },
+    {
+      "id": "AUD-MUCGTW67",
+      "timestamp": "2026-09-22T09:22:22.879Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "MADRASA ADMIN",
+      "action": "STUDENT_ADMITTED",
+      "entity": "MadrasaStudent",
+      "entityId": "STU-MUCGTW67",
+      "details": "Admitted Ayesha Rida to Class 1"
+    },
+    {
+      "id": "AUD-MUCGTTLB",
+      "timestamp": "2026-09-22T09:22:19.535Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "SECRETARY",
+      "action": "REGISTRATION_STATUS_UPDATED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000125",
+      "details": "Status updated to REJECTED for Shafi Rahman"
+    },
+    {
+      "id": "AUD-MUCGTIVM",
+      "timestamp": "2026-09-22T09:22:05.650Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "SECRETARY",
+      "action": "ANNOUNCEMENT_PUBLISHED",
+      "entity": "Announcement",
+      "entityId": "ANN-MUCGTIVM",
+      "details": "Published notice: habajine 7nte dikr majlis"
+    },
+    {
+      "id": "AUD-MUCGPQCI",
+      "timestamp": "2026-09-22T09:19:08.706Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "SUPER ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-AFNAS",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCGHRPG",
+      "timestamp": "2026-09-22T09:12:57.220Z",
+      "userId": "USR-MUCGHRPG",
+      "userName": "shahal",
+      "role": "MEMBER",
+      "action": "MEMBER_REGISTERED",
+      "entity": "Member",
+      "entityId": "MH-MEM-00107",
+      "details": "New member registration for shahal (Username: shahal)"
+    },
+    {
+      "id": "AUD-MUCGF60B",
+      "timestamp": "2026-09-22T09:10:55.787Z",
+      "userId": "SYS",
+      "userName": "General Secretary",
+      "role": "SECRETARY",
+      "action": "REGISTRATION_STATUS_UPDATED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000125",
+      "details": "Status updated to APPROVED for Shafi Rahman"
+    },
+    {
+      "id": "AUD-MUCGEQJS",
+      "timestamp": "2026-09-22T09:10:35.752Z",
+      "userId": "USR-MUCGEQJS",
+      "userName": "afnas",
+      "role": "MEMBER",
+      "action": "MEMBER_REGISTERED",
+      "entity": "Member",
+      "entityId": "MH-MEM-00106",
+      "details": "New member registration for afnas (Username: afnas463)"
+    },
+    {
+      "id": "AUD-MUCG99TM",
+      "timestamp": "2026-09-22T09:06:20.794Z",
+      "userId": "USR-005",
+      "userName": "Abdul Rahman K.",
+      "role": "MEMBER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-005",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCFYWIE",
+      "timestamp": "2026-09-22T08:58:16.982Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "SUPER ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-AFNAS",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCFYKLH",
+      "timestamp": "2026-09-22T08:58:01.541Z",
+      "userId": "USR-MUCFYKLH",
+      "userName": "afnas",
+      "role": "MEMBER",
+      "action": "MEMBER_REGISTERED",
+      "entity": "Member",
+      "entityId": "MH-MEM-00105",
+      "details": "New member registration for afnas (Username: afnas387)"
+    },
+    {
+      "id": "AUD-MUCFWO2Q",
+      "timestamp": "2026-09-22T08:56:32.738Z",
+      "userId": "USR-005",
+      "userName": "Abdul Rahman K.",
+      "role": "MEMBER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-005",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCFW20Q",
+      "timestamp": "2026-09-22T08:56:04.154Z",
+      "userId": "USR-001",
+      "userName": "Sayyid Ahmed Koya Thangal",
+      "role": "SUPER ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-001",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCFVE3H",
+      "timestamp": "2026-09-22T08:55:33.149Z",
+      "userId": "USR-005",
+      "userName": "Abdul Rahman K.",
+      "role": "MEMBER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-005",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCFT0TR",
+      "timestamp": "2026-09-22T08:53:42.639Z",
+      "userId": "USR-AFNAS",
+      "userName": "Afnas (Mahallu Super Admin)",
+      "role": "SUPER ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-AFNAS",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCF7A92",
+      "timestamp": "2026-09-22T08:36:48.422Z",
+      "userId": "USR-003",
+      "userName": "K. Mohammed Ashraf",
+      "role": "SECRETARY",
+      "action": "REGISTRATION_STATUS_UPDATED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000125",
+      "details": "Status updated to APPROVED for Shafi Rahman"
+    },
+    {
+      "id": "AUD-MUCF6AW7",
+      "timestamp": "2026-09-22T08:36:02.599Z",
+      "userId": "USR-003",
+      "userName": "K. Mohammed Ashraf",
+      "role": "MADRASA ADMIN",
+      "action": "MARKS_RECORDED",
+      "entity": "Marks",
+      "entityId": "MRK-MUCF6AW7",
+      "details": "Recorded Annual Examination 2026 marks for Muhammed Rayan: 91.3% (A+)"
+    },
+    {
+      "id": "AUD-MUCF5NLL",
+      "timestamp": "2026-09-22T08:35:32.409Z",
+      "userId": "USR-003",
+      "userName": "K. Mohammed Ashraf",
+      "role": "TREASURER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-003",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCF29DK",
+      "timestamp": "2026-09-22T08:32:54.008Z",
+      "userId": "USR-003",
+      "userName": "K. Mohammed Ashraf",
+      "role": "TREASURER",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-003",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-MUCF07TU",
+      "timestamp": "2026-09-22T08:31:18.690Z",
+      "userId": "9048704634",
+      "userName": "afnas",
+      "role": "MEMBER",
+      "action": "SERVICE_REQUEST_SUBMITTED",
+      "entity": "ServiceRequest",
+      "entityId": "MH-SRV-2026-046",
+      "details": "Requested service: Medical & Dialysis Welfare Fund"
+    },
+    {
+      "id": "AUD-MUCEUB48",
+      "timestamp": "2026-09-22T08:26:43.016Z",
+      "userId": "USR-004",
+      "userName": "Usthad Zainul Abid Musliyar",
+      "role": "SECRETARY",
+      "action": "REGISTRATION_STATUS_UPDATED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000125",
+      "details": "Status updated to APPROVED for Shafi Rahman"
+    },
+    {
+      "id": "AUD-MUCERZ8N",
+      "timestamp": "2026-09-22T08:24:54.311Z",
+      "userId": "USR-004",
+      "userName": "Usthad Zainul Abid Musliyar",
+      "role": "MADRASA ADMIN",
+      "action": "USER_LOGIN",
+      "entity": "User",
+      "entityId": "USR-004",
+      "details": "User logged in from web client"
+    },
+    {
+      "id": "AUD-001",
+      "timestamp": "2026-03-01T10:15:00Z",
+      "userId": "USR-003",
+      "userName": "K. Mohammed Ashraf",
+      "role": "TREASURER",
+      "action": "PAYMENT_CREATED",
+      "entity": "Payment",
+      "entityId": "PAY-001",
+      "details": "Recorded ₹1,200 annual subscription for Kalluvila House (MH-FAM-001)"
+    },
+    {
+      "id": "AUD-002",
+      "timestamp": "2026-03-16T11:00:00Z",
+      "userId": "USR-004",
+      "userName": "Usthad Zainul Abid",
+      "role": "MADRASA ADMIN",
+      "action": "REGISTRATION_APPROVED",
+      "entity": "Registration",
+      "entityId": "MH-REG-2026-000126",
+      "details": "Approved Madrasa admission for Ayesha Rida to Class 1-A"
+    }
+  ],
+  "meta": {
+    "totalFamilyCount": 147,
+    "totalMemberCount": 590,
+    "totalStudentCount": 181
+  }
+}
