@@ -545,7 +545,7 @@ async function startServer() {
       return res.status(403).json({ error: 'Authorized Mahallu scholar or administrator privilege required.' });
     }
 
-    const updated = db.updateZakatConfig(req.body, req.user!.name, req.user!.id);
+    const updated = db.updateZakatConfig(req.body, req.user!.fullName, req.user!.id);
     res.json(updated);
   });
 
@@ -559,7 +559,7 @@ async function startServer() {
     const record = db.saveZakatCalculation({
       ...req.body,
       userId: req.user?.id || req.body.userId,
-      userName: req.user?.name || req.body.userName,
+      userName: req.user?.fullName || req.body.userName,
     });
     res.json(record);
   });
@@ -594,7 +594,7 @@ async function startServer() {
     const newCase = db.saveWarasathCase({
       ...req.body,
       userId: req.user?.id || req.body.userId,
-      userName: req.user?.name || req.body.userName,
+      userName: req.user?.fullName || req.body.userName,
     });
     res.json(newCase);
   });
@@ -642,12 +642,12 @@ async function startServer() {
 
     const review = db.addScholarReview({
       caseId,
-      scholarName: req.user!.name,
+      scholarName: req.user!.fullName,
       scholarRole: req.user!.role,
       status,
       comments: comments || '',
       fatwaOrReference: fatwaOrReference || '',
-    }, req.user!.name, req.user!.id);
+    }, req.user!.fullName, req.user!.id);
 
     res.json(review);
   });

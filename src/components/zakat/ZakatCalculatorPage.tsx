@@ -38,6 +38,7 @@ export const ZakatCalculatorPage: React.FC<ZakatCalculatorPageProps> = ({
 
   // Configuration
   const [config, setConfig] = useState<ZakatConfiguration>({
+    id: 'zakat-config-1',
     goldPricePerGram: 6850,
     silverPricePerGram: 88,
     goldNisabGrams: 85,
@@ -46,7 +47,8 @@ export const ZakatCalculatorPage: React.FC<ZakatCalculatorPageProps> = ({
     ushrRainfedRate: 0.10,
     ushrIrrigatedRate: 0.05,
     defaultNisabStandard: 'GOLD',
-    lastUpdated: '2026-09-01T00:00:00.000Z',
+    methodologyNotes: 'Standard Shafi & Hanafi Zakat calculation methodology based on Gold and Silver Nisab thresholds.',
+    updatedAt: '2026-09-01T00:00:00.000Z',
     updatedBy: 'Chief Qazi, Manoor Mahall',
   });
 

@@ -475,7 +475,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({
           {role === 'ADMIN' && (
             <div className="space-y-5">
               
-              {/* One-Tap Admin Quick Login Card (afnas / 123) */}
+              {/* One-Tap Admin Quick Login Card (afnas / 1234) */}
               <div className="p-3.5 rounded-2xl bg-blue-50/70 border border-blue-200 flex items-center justify-between">
                 <div>
                   <div className="text-xs font-bold text-blue-900 flex items-center gap-1.5">
@@ -483,13 +483,13 @@ export const AuthPage: React.FC<AuthPageProps> = ({
                     <span>Admin Command Credentials</span>
                   </div>
                   <div className="text-xs text-blue-700 font-medium mt-0.5">
-                    Username: <strong>afnas</strong> • Password: <strong>123</strong>
+                    Username: <strong>afnas</strong> • Passkey: <strong>1234</strong> (4-digit)
                   </div>
                 </div>
                 <button
                   type="button"
                   id="btn-quick-admin-fill"
-                  onClick={() => handleQuickLogin('afnas', '123')}
+                  onClick={() => handleQuickLogin('afnas', '1234')}
                   className="px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-xs transition-colors"
                 >
                   Quick Sign In
@@ -537,7 +537,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({
                       required
                       value={adminPassword}
                       onChange={(e) => setAdminPassword(e.target.value)}
-                      placeholder="Enter admin password (123)"
+                      placeholder="Enter 4-digit passkey (1234)"
                       className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-600 transition-all"
                     />
                   </div>

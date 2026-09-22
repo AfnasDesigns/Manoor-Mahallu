@@ -151,12 +151,12 @@ export function executeAuthorizedTool(
     }
 
     case 'calculateWarasath': {
-      const calcResult = calculateIslamicInheritance(args);
+      const calcResult = calculateIslamicInheritance(args as any);
       return { success: true, data: calcResult };
     }
 
     case 'getMyWarasathCases': {
-      const cases = db.getWarasathCases(currentUser?.id, isAdmin);
+      const cases = db.getWarasathCases(currentUser?.id, Boolean(isAdmin));
       return { success: true, data: cases };
     }
 

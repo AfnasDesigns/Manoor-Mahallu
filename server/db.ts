@@ -76,7 +76,7 @@ const DB_FILE = path.join(DATA_DIR, 'manoor_mahall_db.json');
 function initializeSeedData(): DatabaseSchema {
   const salt = 'manoor_secure_salt_9048';
   const adminPasswordHash = hashPassword('9048', salt);
-  const afnasPasswordHash = hashPassword('123', salt);
+  const afnasPasswordHash = hashPassword('1234', salt);
 
   const initialUsers: StoredUser[] = [
     {
@@ -1275,8 +1275,8 @@ class Database {
     if (!usernameOrName || !pass) return null;
     const term = usernameOrName.trim().toLowerCase();
 
-    // 1. Dedicated Admin check: username 'afnas' with password '123'
-    if (term === 'afnas' && (pass === '123' || pass === '9048')) {
+    // 1. Dedicated Admin check: username 'afnas' with 4-digit passkey '1234' or '9048' or '123'
+    if (term === 'afnas' && (pass === '1234' || pass === '9048' || pass === '123')) {
       let afnas = this.data.users.find(u => u.username.toLowerCase() === 'afnas');
       if (!afnas) {
         const salt = 'manoor_secure_salt_9048';
@@ -1287,7 +1287,7 @@ class Database {
           phone: '+91 98470 12345',
           role: 'SUPER ADMIN',
           createdAt: new Date().toISOString(),
-          passwordHash: hashPassword('123', salt),
+          passwordHash: hashPassword('1234', salt),
           salt,
         };
         this.data.users.unshift(afnas);

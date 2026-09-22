@@ -848,7 +848,7 @@ export const WarasathCalculatorPage: React.FC<WarasathCalculatorPageProps> = ({
                   Total Deductions (Burial + Debts + Bequest)
                 </span>
                 <span className="text-xl font-extrabold text-rose-700 font-mono mt-1 block">
-                  -₹{result.deductions.toLocaleString('en-IN')}
+                  -₹{(result.funeralDeduction + result.debtDeduction + result.bequestDeduction + result.otherDeductions).toLocaleString('en-IN')}
                 </span>
                 <span className="text-[10px] text-slate-400 mt-1 block">Obligations settled first</span>
               </div>
@@ -861,7 +861,7 @@ export const WarasathCalculatorPage: React.FC<WarasathCalculatorPageProps> = ({
                   ₹{result.netEstate.toLocaleString('en-IN')}
                 </span>
                 <span className="text-[10px] text-emerald-200 mt-1 block">
-                  {result.adjustmentApplied ? `Adjusted by ${result.adjustmentApplied}` : 'Distributed across legal heirs'}
+                  {result.explanation?.[0] || 'Distributed across legal heirs'}
                 </span>
               </div>
             </div>
@@ -903,7 +903,7 @@ export const WarasathCalculatorPage: React.FC<WarasathCalculatorPageProps> = ({
                         <td className="py-3.5 pr-4">
                           <span className="font-bold text-slate-900 block">{heir.relation}</span>
                           <span className="text-[11px] text-slate-500 mt-0.5 block max-w-md">
-                            {heir.justification}
+                            {heir.notes}
                           </span>
                         </td>
                         <td className="py-3.5 px-4 text-center font-mono text-slate-700">
@@ -1054,7 +1054,7 @@ export const WarasathCalculatorPage: React.FC<WarasathCalculatorPageProps> = ({
                           {c.id}
                         </span>
                         <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
-                          c.status === 'CERTIFIED' ? 'bg-emerald-100 text-emerald-800' :
+                          c.status === 'SCHOLAR VERIFIED' ? 'bg-emerald-100 text-emerald-800' :
                           c.status === 'SUBMITTED_FOR_REVIEW' ? 'bg-blue-100 text-blue-800' :
                           'bg-amber-100 text-amber-800'
                         }`}>
@@ -1072,8 +1072,12 @@ export const WarasathCalculatorPage: React.FC<WarasathCalculatorPageProps> = ({
                       <button
                         onClick={() => {
                           setResult({
+                            deceasedGender: c.deceasedGender,
                             grossEstate: c.grossEstate,
-                            deductions: c.funeralExpenses + c.debts + c.bequests,
+                            funeralDeduction: c.funeralDeduction,
+                            debtDeduction: c.debtDeduction,
+                            bequestDeduction: c.bequestDeduction,
+                            otherDeductions: c.otherDeductions || 0,
                             netEstate: c.netEstate,
                             heirs: c.heirs,
                             explanation: [
@@ -1081,8 +1085,6 @@ export const WarasathCalculatorPage: React.FC<WarasathCalculatorPageProps> = ({
                               `Gross estate: ₹${c.grossEstate.toLocaleString('en-IN')}`,
                               `Net estate distributed: ₹${c.netEstate.toLocaleString('en-IN')}`,
                             ],
-                            status: c.status,
-                            disclaimer: 'PRELIMINARY — SCHOLAR VERIFICATION REQUIRED.',
                           });
                           setCurrentCaseId(c.id);
                           setDeceasedName(c.deceasedName);

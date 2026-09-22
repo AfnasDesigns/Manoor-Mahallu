@@ -25,9 +25,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({
 }) => {
   const [tab, setTab] = useState<'LOGIN' | 'REGISTER'>('LOGIN');
   
-  // Login Form - Default to Admin 'afnas' / '123' as requested by user!
+  // Login Form - Default to Admin 'afnas' / '1234' (4-digit passkey)
   const [username, setUsername] = useState('afnas');
-  const [password, setPassword] = useState('123');
+  const [password, setPassword] = useState('1234');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -181,14 +181,14 @@ export const AuthModal: React.FC<AuthModalProps> = ({
               <div className="grid grid-cols-1 gap-2">
                 <button
                   type="button"
-                  onClick={() => handleQuickSwitch('afnas', '123')}
+                  onClick={() => handleQuickSwitch('afnas', '1234')}
                   className="p-3 rounded-xl border border-blue-300 bg-blue-50/70 hover:bg-blue-100 text-left transition-colors group"
                 >
                   <div className="text-xs font-bold text-blue-900 flex items-center justify-between">
-                    <span>Admin Command (afnas / 123)</span>
+                    <span>Admin Command (afnas / 1234)</span>
                     <ShieldCheck className="w-3.5 h-3.5 text-blue-600" />
                   </div>
-                  <div className="font-mono text-xs text-blue-700 mt-0.5">Quick access to Admin Dashboard</div>
+                  <div className="font-mono text-xs text-blue-700 mt-0.5">Quick access to Admin Dashboard (4-digit passkey)</div>
                 </button>
               </div>
             </div>
@@ -233,12 +233,12 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    placeholder="Enter password (e.g. 123)"
+                    placeholder="Enter 4-digit passkey (e.g. 1234)"
                     className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-blue-600 focus:border-blue-600 focus:outline-none"
                   />
                 </div>
                 <p className="text-xs text-slate-500 mt-1">
-                  Admin password is <strong className="text-blue-700">123</strong>
+                  Admin passkey is <strong className="text-blue-700">1234</strong> (4-digit)
                 </p>
               </div>
 

@@ -382,6 +382,18 @@ export interface InheritanceHeir {
   notes?: string;
 }
 
+export interface InheritanceCalculationResult {
+  deceasedGender: 'MALE' | 'FEMALE';
+  grossEstate: number;
+  funeralDeduction: number;
+  debtDeduction: number;
+  bequestDeduction: number;
+  otherDeductions: number;
+  netEstate: number;
+  heirs: InheritanceHeir[];
+  explanation: string[];
+}
+
 export interface ScholarReview {
   id: string;
   caseId: string;

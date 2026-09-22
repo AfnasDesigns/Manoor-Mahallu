@@ -43,6 +43,7 @@ import { CompactPrayerTimes } from './components/CompactPrayerTimes.tsx';
 import { ProgrammesSection } from './components/ProgrammesSection.tsx';
 import { ServicesSection } from './components/ServicesSection.tsx';
 import { DigitalMahallShowcase } from './components/DigitalMahallShowcase.tsx';
+import { AboutSection } from './components/AboutSection.tsx';
 import { Footer } from './components/Footer.tsx';
 import { AuthPage } from './components/AuthPage.tsx';
 
@@ -477,6 +478,9 @@ export default function App() {
               }
             }}
           />
+
+          {/* 9b. About Mahallu & Committee Members & Location Map */}
+          <AboutSection />
 
           {/* 10. Final Call to Action */}
           <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
